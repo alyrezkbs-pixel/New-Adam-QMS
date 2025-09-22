@@ -1,0 +1,36 @@
+/* Meetings component styles */
+
+/* Tab styling */
+.MuiTabs-root {
+  margin-bottom: 16px;
+}
+
+/* Card styling */
+.committee-card {
+  transition: transform 0.2s;
+}
+
+.committee-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* List item styling */
+.meeting-list-item {
+  transition: background-color 0.2s;
+}
+
+.meeting-list-item:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+/* Add button styling */
+.add-button-container {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.add-button-container:hover {
+  border-color: var(--mui-palette-primary-main);
+  background-color: rgba(0, 0, 0, 0.02);
+}
